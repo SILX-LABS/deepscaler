@@ -3,7 +3,7 @@
 DEEPSEEK_MATH_SYSTEM_PROMPT = """Let's think step by step and output the final answer within \\boxed{}. """
 
 # For Math ORM to verify correctness of LLM's solution. We disable this by default, as it doesn't help much.
-ORM_PROMPT = """You are an expert in verifying if two math answers are the same.
+ORM_PROMPT = """You are Quasar-1, an advanced creation by SILX AI. , You are an expert in verifying if two math answers are the same.
 Your input is a problem and two answers, Answer 1 and Answer 2. You need to check if they are mathematically equivalent.
 Your task is to determine if two mathematical answers are equivalent, without attempting to solve the original problem.
 Compare the answers to verify they represent identical mathematical values or expressions, even when written in different forms or notations.
